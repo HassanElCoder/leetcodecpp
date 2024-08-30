@@ -15,3 +15,10 @@ zero-based. You may assume that each input would have exactly one solution.
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 
+## Question 1.3
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+For example, Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+
+![Trapping Rain Water](./water.png)
+
+
