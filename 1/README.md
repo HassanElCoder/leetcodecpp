@@ -32,4 +32,63 @@ Note:
 • For a given n, a gray code sequence is not uniquely defined.
 • For example, [0,2,3,1] is also a valid gray code sequence according to the above definition.
 
+## Question 1.5
+There are N children standing in a line. Each child is assigned a rating value.
+You are giving candies to these children subjected to the following requirements:
+• Each child must have at least one candy.
+• Children with a higher rating get more candies than their neighbors.
+What is the minimum candies you must give?
+
+## Question 1.6 
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring
+cases.
+For example,
+"A man, a plan, a canal: Panama" is a palindrome.
+"race a car" is not a palindrome.
+Note: Have you consider that the string might be empty? This is a good question to ask during an
+interview.
+For the purpose of this problem, we define empty string as valid palindrome.
+
+## Question 1.7
+Implement regular expression matching with support for '.' and '*'.
+'.' Matches any single character. '*' Matches zero or more of the preceding element.
+The matching should cover the entire input string (not partial).
+The function prototype should be:
+bool isMatch(const char *s, const char *p)
+Some examples:
+isMatch("aa","a") → false
+isMatch("aa","aa") → true
+isMatch("aaa","aa") → false
+isMatch("aa", "a*") → true
+isMatch("aa", ".*") → true
+isMatch("ab", ".*") → true
+
+
+## Question 1.8
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]" are all valid but "(]" and "([)]" are not.
+
+## Question 1.9
+Given a binary tree, return the preorder traversal of its nodes’ values.
+For example: Given binary tree {1,#,2,3},
+ 1
+  \
+  2
+ /
+3
+return [1,2,3].
+Recursive solution is trivial, you need to implement it iteratively.
+
+## Question 1.10
+Given inorder and postorder traversal of a tree, construct the binary tree.
+You may assume that duplicates do not exist in the tree. 
+
+## Question 1.11
+Given a binary tree, determine if it is a valid binary search tree (BST).
+Assume a BST is defined as follows:
+• The left subtree of a node contains only nodes with keys less than the node’s key.
+• The right subtree of a node contains only nodes with keys greater than the node’s key.
+• Both the left and right subtrees must also be binary search trees.
+
+
 
