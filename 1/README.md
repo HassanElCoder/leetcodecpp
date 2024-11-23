@@ -68,27 +68,6 @@ isMatch("ab", ".*") → true
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 The brackets must close in the correct order, "()" and "()[]" are all valid but "(]" and "([)]" are not.
 
-## Question 1.9
-Given a binary tree, return the preorder traversal of its nodes’ values.
-For example: Given binary tree {1,#,2,3},
- 1
-  \
-  2
- /
-3
-return [1,2,3].
-Recursive solution is trivial, you need to implement it iteratively.
-
-## Question 1.10
-Given inorder and postorder traversal of a tree, construct the binary tree.
-You may assume that duplicates do not exist in the tree. 
-
-## Question 1.11
-Given a binary tree, determine if it is a valid binary search tree (BST).
-Assume a BST is defined as follows:
-• The left subtree of a node contains only nodes with keys less than the node’s key.
-• The right subtree of a node contains only nodes with keys greater than the node’s key.
-• Both the left and right subtrees must also be binary search trees.
 
 
 
